@@ -1,0 +1,52 @@
+*{
+    background-color: black;
+    scroll-behavior: smooth;
+    color: white;
+}
+
+
+.nav-bar h1{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2.0em;
+    padding-left: 50px;
+    text-decoration: underline;
+}
+
+
+.nav-bar a{
+    position: relative;
+    top: -39px;
+    float: right;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.1em;
+    text-decoration: none;
+    padding: 0 50px;
+}
+
+
+.nav-bar a:hover{
+    background-color: aqua;
+    padding: 30px;
+    color: black;
+    text-decoration: underline;
+    border-radius: 15px;
+}
+
+
+@media (min-width: 1px) and (max-width: 800px) {
+    .nav-bar h1{
+        text-align: center;
+        height: 120px;
+        margin-right: 50px;
+    }
+
+    .nav-bar a{
+        float: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
