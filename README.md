@@ -1,2 +1,2 @@
 # responsive-navbar
-Licencia = CAPO PUEDES HACER LO QUE SE TE CANTE ENTENDISTE :V
+Por si ocupas ayuda en tu web.
